@@ -10,8 +10,17 @@
 
     </div>
 
+    <a
+        href="https://github.com/JHWelch/filament-bug/blob/main/app/Http/Livewire/ThingToTypeForm.php"
+        class="text-blue-500 underline hover:text-blue-700"
+    >
+        The form's code can be found here
+    </a>
 
-    <form wire:submit.prevent="submit">
+    <form
+        class="mt-10"
+        wire:submit.prevent="submit"
+    >
         {{ $this->form }}
     </form>
 </div>
